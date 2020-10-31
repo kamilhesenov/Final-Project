@@ -1,6 +1,6 @@
 $(document).ready(function (){
 
-//   Home-intro Corusel
+ //   Home-intro Corusel
     if($("#home-intro").length){
         $('.slider .owl-carousel').owlCarousel({
             margin: 30,
@@ -19,7 +19,7 @@ $(document).ready(function (){
  $( ".slider .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
 
 
-//  WowAnimation Plugin
+ //  WowAnimation Plugin
  function wowAnimation() {
     var wow = new WOW({
         boxClass: 'wow',
@@ -34,7 +34,7 @@ $(document).ready(function (){
   wowAnimation();
   });
 
-//   Home-services Corusel
+ //   Home-services Corusel
   if($("#services").length){
     $('.services-corusel .owl-carousel').owlCarousel({
         margin: 30,
@@ -56,12 +56,12 @@ $(document).ready(function (){
                         items: 4
                     }
                 }
-})
-}
-$( ".services-coruse .owl-carousel .owl-dots .owl-dot").html('<span></span>');
+ })
+ }
+ $( ".services-coruse .owl-carousel .owl-dots .owl-dot").html('<span></span>');
 
-//   Home-pecialist-doctors Corusel
-if($("#specialist-doctors").length){
+ //   Home-pecialist-doctors Corusel
+ if($("#specialist-doctors").length){
   $('.specialist-corusel .owl-carousel').owlCarousel({
       items:  4,
       margin: 30,
@@ -82,9 +82,32 @@ if($("#specialist-doctors").length){
             items: 4
         }
     }
-      
-})
-}
+ })
+ }
+ // Counter Plugin
+ if($("#counter").length){
+    $(".timer").counterUp({
+      delay: 10,
+      time: 5000,
+    })
+  }
+
+ //  Home-Testimonial Corusel
+  if($("#testimonial").length){
+    $('.testimonial-content .owl-carousel').owlCarousel({
+        items: 1,
+        margin: 30,
+        dots: false,
+        loop: true,
+        nav: true,
+        mouseDrag: true,
+        autoplay:false,
+        autoplayHoverPause:true,
+        transitionStyle: "fade",
+ })
+ }
+ $( ".testimonial-content .owl-carousel .owl-prev").html('<i class="fas fa-angle-left"></i>');
+ $( ".testimonial-content .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
 })
 
 // Home-Speciality
