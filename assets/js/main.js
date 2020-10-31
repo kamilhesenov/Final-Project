@@ -60,7 +60,31 @@ $(document).ready(function (){
 }
 $( ".services-coruse .owl-carousel .owl-dots .owl-dot").html('<span></span>');
 
-
+//   Home-pecialist-doctors Corusel
+if($("#specialist-doctors").length){
+  $('.specialist-corusel .owl-carousel').owlCarousel({
+      items:  4,
+      margin: 30,
+      dots: false,
+      loop: true,
+      nav: false,
+      mouseDrag: true,
+      navSpeed: 1000,
+      transitionStyle: "fade",
+      responsive: {
+        0: {
+            items: 1
+        },
+        768: {
+            items: 2
+        },
+        992: {
+            items: 4
+        }
+    }
+      
+})
+}
 })
 
 // Home-Speciality

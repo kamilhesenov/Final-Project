@@ -96,6 +96,7 @@
         }
     }
 }
+
 // Navbar start
 #navbar{
     margin-top: 20px;
@@ -270,6 +271,7 @@
     }
    }
 }
+
 // Home-intro start
 #home-intro{
     .slider{
@@ -421,7 +423,8 @@
             }
         }
     }
-}  
+}
+
 // Welcome-hospital start
 #welcome-hospital{
     padding: 50px;
@@ -501,6 +504,7 @@
     }
 
 }
+
 // Services start
 #services{
     background: #F5F8FA;
@@ -641,6 +645,7 @@
         }
     }
 }
+
 // Speciality start
   #speciality{
       background-image: url("/assets/img/new-banner.jpg");
@@ -1148,6 +1153,220 @@
           }
       } 
    }
+}
+
+// Specialist-doctors start
+#specialist-doctors{
+    background-image: url("/assets/img/bg-22.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 50px;
+    .specialist{
+        position: relative;
+        margin-bottom: 35px;
+        text-align: center!important;
+        &::after{
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -24px;
+            right: 0;
+            height: 4px;
+            width: 45px;
+            background-color: $primary-color;
+            border-radius: 4px;
+            margin: 0 auto;
+        }
+        h4{
+            font-size: 16px;
+            font-weight: 500;
+            color: $primary-color;
+            margin-bottom: 10px;
+            width: 80%;
+            text-transform: capitalize;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h2{
+            text-transform: capitalize;
+            font-size: 32px;
+            margin-bottom: 15px;
+            color: $title-color;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    .specialist-corusel{
+            position: relative;
+            
+        .item{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .team-box{
+                background-color: #ffffff;
+                padding: 45px 20px 26px 20px;
+                margin-bottom: 30px;
+                width: 400px;
+                .item-img{
+                    position: relative;
+                    background-color: #f1f7fa;
+                    border-radius: 50%;
+                    margin: 0 auto 23px;
+                    width: 250px;
+                    &:hover::after{
+                        content: "";
+                        position: absolute;
+                        height: 101%;
+                        width: 100%;
+                        background-color: rgba(57, 108, 240, 0.90);
+                        top: 0;
+                        left: 0;
+                        z-index: 1;
+                        border-radius: 50%;
+                        @include transition(all 0.5s ease-out);
+                    }
+                    &:hover span{
+                        opacity: 1;
+                        z-index: 2;
+                        @include transition(all 0.5s ease-out);
+                    }
+                    img{
+                        display: block;
+                        max-width: 230px;
+                        border-radius: 50%;
+                    }
+                    span{
+                        position: absolute;
+                         top: 32%;
+                         left: 43%;
+                         font-size: 60px;
+                         color: #fff;
+                         opacity: 0;
+                         z-index: 1;
+                         @include transition(all 0.5s ease-out);
+                         font-weight: bolder;
+                    }
+                }
+                .item-content{
+                    text-align: center;
+                    margin-bottom: 20px;
+                    position: relative;
+                    .item-title{
+                        font-size: 22px;
+                        margin-bottom: 6px;
+                        line-height: 28px;
+                        font-weight: 700;
+                        font-style: normal;
+                        text-transform: capitalize !important;
+                        a{
+                        color: $title-color;
+                        @include transition(all 0.3s ease-out);
+                        background-color: transparent;
+                        &:hover{
+                            color: $primary-color;
+                            @include transition(all 0.3s ease-out);
+                        }
+                        }
+                    }
+                    p{
+                        color: $body-color;
+                        margin-bottom: 0;
+                        font-size: 16px;
+                        line-height: 26px;
+                        font-weight: 400;
+                        font-style: normal;
+                    }
+                }
+                .item-social{
+                    text-align: center;
+                    margin-bottom: 15px;
+                    display: block;
+                    clear: both;
+                    user-select: none;
+                    overflow: hidden;
+                    text-align: center;
+                    ul{
+                        padding-left: 20px;
+                        margin-top: 0;
+                        margin-bottom: 1rem;
+                        li{
+                            font-size: 16px;
+                            line-height: 26px;
+                            font-weight: 400;
+                            font-style: normal;
+                            display: inline-block;
+                            margin: 0 10px;
+                            a{
+                                color: $body-color;
+                                @include transition(all 0.3s ease-out);
+                                &:hover{
+                                    color: $primary-color;
+                                    @include transition(all 0.3s ease-out);
+                                }
+                                i{
+                                    font-weight: 400;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Need-doctor start
+#need-doctor{
+    background-image: url("/assets/img/c3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background-attachment: fixed;
+    padding: 100px 0px 100px 0px;
+    .appointment{
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        h4{
+            font-size: 24px;
+            font-weight: 400;
+            color: #fff;
+            line-height: 26px;
+            font-style: normal;
+        }
+        h2{
+            font-size: 36px;
+            color: #ffffff;
+            line-height: 1.5;
+            text-transform: capitalize;
+            font-weight: 700;
+            font-style: normal;
+        }
+        .call-to-action{
+            a{
+                border: 1px solid;
+                border-color: #ffffff;
+                border-radius: 4px;
+                text-transform: initial;
+                color: #ffffff;
+                padding: 12px 30px;
+                font-size: 16px;
+                font-weight: 700;
+                display: inline-block;
+                @include transition(all 0.5s ease-out);
+                &:hover{
+                    background-color: #ffffff;
+                    color: $primary-color;
+                    @include transition(all 0.5s ease-out);
+                }
+            }
+        }
+    }
 }
 @keyframes icon-fade {
     0% {
