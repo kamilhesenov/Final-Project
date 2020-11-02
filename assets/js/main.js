@@ -97,7 +97,7 @@ $(document).ready(function (){
     $('.testimonial-content .owl-carousel').owlCarousel({
         items: 1,
         margin: 30,
-        dots: false,
+        dots: true,
         loop: true,
         nav: true,
         mouseDrag: true,
@@ -106,8 +106,66 @@ $(document).ready(function (){
         transitionStyle: "fade",
  })
  }
+
  $( ".testimonial-content .owl-carousel .owl-prev").html('<i class="fas fa-angle-left"></i>');
  $( ".testimonial-content .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
+  
+ // Home-Brand Corusel 
+ if($("#brand").length){
+  $('.brand-section .owl-carousel').owlCarousel({
+      items: 5,
+      margin: 30,
+      dots: false,
+      loop: true,
+      nav: true,
+      mouseDrag: true,
+      autoplay:false,
+      autoplayHoverPause:true,
+      transitionStyle: "fade",
+      responsive: {
+        0: {
+            items: 2
+        },
+        768: {
+            items: 3
+        },
+        992: {
+            items: 5
+        }
+    }
+ })
+}
+ $( ".brand-section .owl-carousel .owl-prev").html('<i class="fas fa-angle-left"></i>');
+ $( ".brand-section .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
+ 
+ // Header Scroll start 
+ if($("#navbar").length){
+  $(window).scroll(function (e) { 
+    e.preventDefault();
+    let scroll = $(window).scrollTop();
+    if(scroll > 100){
+      $("#navbar").addClass("show");
+    }
+    else{
+      $("#navbar").removeClass("show");
+    }
+  });
+ }
+
+ // Back-to-top start
+ if($(".back-to-top").length){
+  $(window).scroll(function (e) { 
+    e.preventDefault();
+    let scroll = $(window).scrollTop();
+    if(scroll > 100){
+      $(".back-to-top").addClass("show");
+    }
+    else{
+      $(".back-to-top").removeClass("show");
+    }
+  });
+ }
+
 })
 
 // Home-Speciality
