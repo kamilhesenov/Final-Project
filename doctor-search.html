@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/font/flaticon.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/f3c06c98be.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+   
+    <header>
+        <!-- Header top start -->
+    <section id="header-top">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-md-9 col-lg-10">
+                    <div class="rt-tophead-contact">
+                        <ul>
+                            <li class="phone-has-address-off">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>9870 St Vincent Place</span>
+                            </li>
+                            <li class="phone-has-mobile-off">
+                                <i class="fas fa-phone"></i>
+                                any question: 
+                                <a href="#">12388448800</a>
+                            </li>
+                            <li class="phone-has-email-off">
+                                <i class="fa fa-envelope-o"></i>
+                                <a href="#">medilink@gmail.com</a>
+                            </li>
+                            <li class="phone-has-opening-off">
+                                <i class="far fa-clock"></i>
+                                <span class="opening-label">Mon - Fri:</span>
+                                9.00am - 11.00pm								
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 col-lg-2 col-xs-12 tophead-right header-social-layout1  phone-has-social">
+                    <ul class="tophead-social">
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Header top end -->
+
+    <!-- Navbar start -->
+    <section id="navbar">
+      <div class="container-fluid">
+          <div class="row d-flex align-items-center">
+              <div class="col-sm-2 col-xs-12">
+                  <div class="site-branding">
+                      <a href="#">
+                          <img src="/assets/img/logo-dark.png" alt="Medilink">
+                      </a>
+                  </div>
+              </div>
+              <div class="col-sm-8 col-xs-2">
+                  <div class="header-icon-area header-action-items-layout2">
+                      <div class="search-box-area">
+                          <div class="search-box">
+                              <a href="#">
+                                <i class="flaticon-loupe"></i>
+                              </a>
+                          </div>
+                      </div>
+                      <div class="clear"></div>
+                  </div>
+                  <div class="site-navigation">
+                      <nav class="menu-main-primary-container">
+                          <ul class="menu-main-primary">
+                              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                              <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Doctors</a>
+                                  <ul class="sub-menu">
+                                      <li>
+                                          <a href="#">Doctors Search</a>
+                                      </li>
+                                      <li>
+                                        <a href="#">Doctor Details</a>
+                                    </li>
+                                  </ul>
+                                </li>
+                              <li class="nav-item">
+                                  <a class="nav-link" href="#">Departments</a>
+                                  <ul class="sub-menu">
+                                      <li>
+                                          <a href="#">Department Detail</a>
+                                      </li>
+                                  </ul>
+                              </li>
+                              <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                          </ul>
+                      </nav>
+                  </div>
+              </div>
+              <div class="col-lg-2 col-md-2">
+                <a class="apointment-btn" href="#">Appointment</a>
+              </div>
+          </div>
+      </div>
+    </section>
+    <!-- Navbar end -->
+    </header>
+    <main>
+        <!-- Banner section start -->
+    <section id="banner">
+        <div class="page-banner">
+            <div class="container-fluid">
+                <div class="banner-connet">
+                    <h1>Doctors Search</h1>
+                    <div class="breadcrumb-area">
+                        <div class="banner-breadcrumb">
+                            <span class="icon">
+                                <a href="#">
+                                    <span>Medilink</span>
+                                </a>
+                                >
+                            </span>
+                            <span class="post-page">Doctors Search</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner section end -->
+
+    <!-- Search section start -->
+    <section id="search">
+        <div class="container-fluid">
+            <div class="search">
+                <div class="team-search">
+                    <div class="search-element-widjet">
+                            <div class="search-element">
+                              <div class="team-search-box">
+                                <div class="row">
+                                   <div class="col-lg-4 col-sm-4">
+                                            <div class="search-item">
+                                                <div class="form-group">
+                                                    <select name="select-doctor" id="select-doctor">
+                                                        <option value="1">Select Doctor Category</option>
+                                                    </select>
+                                                    <span class="search-select">
+                                                        <span class="selection">
+                                                            <span class="doctor-select">Select Doctor Category</span>
+                                                            <span class="select-arrow">
+                                                                <b></b>
+                                                            </span>
+                                                        </span>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                     <div class="col-lg-6 col-sm-6">
+                                         <div class="form-group">
+                                             <input class="doctor-name form-controll" type="text" name="doctor-name" placeholder="Type Doctor Name Here ...">
+                                         </div>
+                                     </div> 
+                                     <div class="col-lg-2 col-sm-2">
+                                         <div class="form-group">
+                                             <input class="item-btn" type="submit" value="Search">
+                                         </div>
+                                     </div>  
+                                  </div>
+                              </div>
+                              <div class="doctor-items">
+                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                      <div class="doctor-item">
+                                          <div class="team-box">
+                                              <div class="item-img">
+                                                  <img src="assets/img/team11-1.png" class="img-fluid" alt="">
+                                                  <ul class="item-icon">
+                                                      <li>
+                                                          <a href="#"><i class="fas fa-plus"></i></a>
+                                                    </li>
+                                                  </ul>
+                                              </div>
+                                              <div class="item-content">
+                                                  <h3 class="item-title">
+                                                      <a href="#">Dr. Jason Roy</a>
+                                                  </h3>
+                                                  <p>Diabetes</p>
+                                              </div>
+                                              <div class="item-content-text">
+                                                  <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                    alignments. Dramatically engage high-Phosfluorescently…
+                                                </p>
+                                              </div>
+                                              <div class="item-schedule">
+                                                  <div class="btn-holder">
+                                                      <a href="#">Book an Appointment</a>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/doctor-1-150x150.jpg" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Jason Roy</a>
+                                                </h3>
+                                                <p>Gynecology</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team10-150x150.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Jason Roy</a>
+                                                </h3>
+                                                <p>Gynecology</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team13.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Maria</a>
+                                                </h3>
+                                                <p>Diabetes</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team16.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Mark Willy</a>
+                                                </h3>
+                                                <p>Neurology</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/doctor-3-230x230.jpg" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Nadim Kamal</a>
+                                                </h3>
+                                                <p>Associate Eye</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team18.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Nadim Kamal</a>
+                                                </h3>
+                                                <p>MBBS, M.D of Medicine</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team10-150x150.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Rihana Roy</a>
+                                                </h3>
+                                                <p>Pediatrics</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/doctor-2-230x230.jpg" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Steven Roy</a>
+                                                </h3>
+                                                <p>Cardiology</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team15.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Tina Rahman</a>
+                                                </h3>
+                                                <p>MBBS, M.D of Medicine</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/team13.png" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr. Zinia Zara</a>
+                                                </h3>
+                                                <p>Neurology</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6 col-sm-6 col-xs-12">
+                                    <div class="doctor-item">
+                                        <div class="team-box">
+                                            <div class="item-img">
+                                                <img src="assets/img/doctor-4-230x230.jpg" class="img-fluid" alt="">
+                                                <ul class="item-icon">
+                                                    <li>
+                                                        <a href="#"><i class="fas fa-plus"></i></a>
+                                                  </li>
+                                                </ul>
+                                            </div>
+                                            <div class="item-content">
+                                                <h3 class="item-title">
+                                                    <a href="#">Dr.Zinia Zara</a>
+                                                </h3>
+                                                <p>Associate Eye</p>
+                                            </div>
+                                            <div class="item-content-text">
+                                                <p>Efficiently myocardinate market-driven innovation via open-source 
+                                                  alignments. Dramatically engage high-Phosfluorescently…
+                                              </p>
+                                            </div>
+                                            <div class="item-schedule">
+                                                <div class="btn-holder">
+                                                    <a href="#">Book an Appointment</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="pagination-area">
+                                        <ul>
+                                            <li class="active">
+                                                <a href="#">1</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">2</a>
+                                            </li>
+                                            <li>
+                                                <a href="#"><i class="fas fa-angle-double-right"></i></a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </section>
+    <!-- Search section end -->
+
+    <!-- Need-doctor section start -->
+    <section id="need-doctor">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="appointment wow fadeInLeftBig" data-wow-duration="2s">
+                        <h4>Need a Doctor for Check-up?</h4>
+                        <h2>just make an appointment & you're done!</h2>
+                        <div class="call-to-action">
+                            <a href="#">Make an Appointment</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Need-doctor section end -->
+    </main>
+    <footer>
+        <!-- Footer-top start -->
+        <section id="footer-top">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+                       <div class="single-item">
+                           <div class="medinlik-about">
+                               <div class="footer-logo">
+                                   <a href="#"><img src="assets/img/footerlogo.png" class="img-fluid" alt=""></a>
+                               </div>
+                               <div class="footer-about">
+                                   <p>We are ipsum dolor sit amet aeeatt consectetuer adipiscing elitseder diam nonummy.</p>
+                               </div>
+                               <div class="footer-contact-info">
+                                   <ul>
+                                       <li>
+                                        <i class="fas fa-map-marker-alt"></i>
+                                        59 Street, 1200 Techpark
+                                       </li>
+                                       <li>
+                                        <i class="fas fa-phone"></i>
+                                        <a href="#">0123456789</a>
+                                       </li>
+                                       <li>
+                                        <i class="far fa-envelope"></i>
+                                        <a href="#">medilink@gmail.com</a>
+                                       </li>
+                                   </ul>
+                               </div>
+                           </div>
+                       </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+                        <div class="single-item">
+                             <div class="nav-menu">
+                                 <div class="footer-header">
+                                     <h3>Departments</h3>
+                                 </div>
+                                 <div class="menu-quick-links-container">
+                                     <ul class="menu-quick-links">
+                                         <li class="menu-item"><a href="#">Who We Are</a></li>
+                                         <li class="menu-item"><a href="#">Our Mission</a></li>
+                                         <li class="menu-item"><a href="#">Awards</a></li>
+                                         <li class="menu-item"><a href="#">Experience</a></li>
+                                         <li class="menu-item"><a href="#">Success Story</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+                        <div class="single-item">
+                             <div class="nav-menu">
+                                 <div class="footer-header">
+                                     <h3>Quick Links</h3>
+                                 </div>
+                                 <div class="menu-quick-links-container">
+                                     <ul class="menu-quick-links">
+                                         <li class="menu-item"><a href="#">Who We Are</a></li>
+                                         <li class="menu-item"><a href="#">Our Mission</a></li>
+                                         <li class="menu-item"><a href="#">Awards</a></li>
+                                         <li class="menu-item"><a href="#">Experience</a></li>
+                                         <li class="menu-item"><a href="#">Success Story</a></li>
+                                     </ul>
+                                 </div>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-md-6 col-xs-12">
+                        <div class="single-item">
+                            <div class="open-hour">
+                                <div class="footer-header">
+                                    <h3>Opening Hours</h3>
+                                </div>
+                                <div class="opening-schedule">
+                                    <ul class="footer-opening-hours">
+                                        <li>Monday<span>9.00 - 17.00</span></li>
+                                        <li>Tuesday:<span>9.00 - 17.00</span></li>
+                                        <li>Wednesday:<span>9.00 - 17.00</span></li>
+                                        <li>Thursday:<span>9.00 - 17.00</span></li>
+                                        <li>Friday:<span>9.00 - 17.00</span></li>
+                                        <li>Saturday:<span class="closed">Closed</span></li>
+                                        <li>Sunday:<span>9.00 - 17.00</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-top end -->
+    
+        <!-- Footer-center start -->
+        <section id="footer-center">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="no-gutters">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="footer-social">
+                                <ul>
+                                    <li class="follow">Follow Us</li>
+                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-12">
+                            <div class="form">
+                                <div class="row">
+                                    <div class="col-md-6 col-12">
+                                        <div class="newsletter-title">
+                                            <h4>Stay informed and healthy</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 col-12">
+                                        <div class="newsletter-form">
+                                            <div class="input-group">
+                                               <input type="text" class="form-controll" placeholder="Enter your e-mail" required>
+                                               <span class="input-group-addon">
+                                                   <input type="submit" value="SIGN UP!">
+                                               </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-center end -->
+    
+        <!-- Footer-bottom start -->
+        <section id="footer-bottom">
+            <div class="copyright">
+                © Copyright MediLink 2019. All Right Reserved. Designed and Developed by 
+                <a href="#">RadiusTheme</a>
+            </div>
+        </section>
+        <!-- Footer-bottom end -->
+    </footer>
+
+    <a href="#" class="back-to-top">
+        <i class="fas fa-angle-double-up"></i>
+    </a>
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="assets/js/wow.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

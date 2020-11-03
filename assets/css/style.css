@@ -3249,6 +3249,495 @@ li {
   border: none;
 }
 
+#search {
+  width: 1349px;
+  left: -29.5px;
+  background-color: #f1f7fa;
+  padding: 80px 0px 80px 0px;
+}
+
+#search .search {
+  max-width: 1320px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+#search .search .team-search {
+  width: 100%;
+  padding: 10px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#search .search .team-search .search-element-widjet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  width: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: start;
+      align-content: flex-start;
+}
+
+#search .search .team-search .search-element-widjet .search-element {
+  width: 100%;
+  position: relative;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box {
+  margin-bottom: 40px;
+  padding: 20px 20px 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(194, 205, 211, 0.75);
+          box-shadow: 0px 1px 2px 0px rgba(194, 205, 211, 0.75);
+  border-radius: 4px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group {
+  margin-bottom: 1rem;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group select {
+  border: 0 !important;
+  clip: rect(0 0 0 0) !important;
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  position: absolute !important;
+  width: 1px !important;
+  color: #707070;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+  text-transform: none;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group .search-select {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+  vertical-align: middle;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group .search-select .selection {
+  height: 50px;
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #f1f7fa;
+  background-image: none;
+  border-radius: 0;
+  border: 1px solid #f1f7fa;
+  outline: 0;
+  cursor: pointer;
+  margin: 0 0 -4px 10px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group .search-select .selection .doctor-select {
+  padding-left: 15px;
+  color: #111111;
+  font-size: 16px;
+  line-height: 28px;
+  padding-right: 20px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group .search-select .selection .select-arrow {
+  position: absolute;
+  background-color: #396CF0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background-image: none;
+  border-style: none;
+  right: 8px;
+  height: 32px;
+  width: 35px;
+  border-radius: 2px;
+  border: none;
+  border-left: 1px solid #aaa;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .search-item .form-group .search-select .selection .select-arrow b {
+  border-top-color: white;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-left-color: transparent;
+  border-style: solid;
+  border-width: 5px 4px 0 4px;
+  height: 0;
+  left: 50%;
+  margin-left: -4px;
+  margin-top: -2px;
+  position: absolute;
+  top: 50%;
+  width: 0;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group {
+  margin-bottom: 1rem;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .doctor-name {
+  background-color: #f1f7fa;
+  border: 1px solid #f1f7fa;
+  width: 100%;
+  height: 50px;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #111111;
+  line-height: 1.25;
+  background-image: none;
+  background-clip: padding-box;
+  border-radius: .25rem;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .doctor-name::-webkit-input-placeholder {
+  color: #111111;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .doctor-name:-ms-input-placeholder {
+  color: #111111;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .doctor-name::-ms-input-placeholder {
+  color: #111111;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .doctor-name::placeholder {
+  color: #111111;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group input[type="text"] {
+  outline: none;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .item-btn {
+  border-color: #396CF0;
+  background-color: #396CF0;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 11.5px 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .team-search-box .form-group .item-btn:hover {
+  background-color: #1c58ef;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 0px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box {
+  background-color: #ffffff;
+  padding: 40px 30px;
+  margin-bottom: 30px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img {
+  position: relative;
+  background-color: #f1f7fa;
+  border-radius: 50%;
+  margin: 0 auto 23px;
+  max-width: 230px;
+  max-height: 230px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(57, 108, 240, 0.9);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  border-radius: 50%;
+  visibility: hidden;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img:hover .item-icon li {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img img {
+  width: 100%;
+  border-radius: 50%;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img .item-icon {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  text-align: center;
+  left: 0;
+  right: 50px;
+  z-index: 2;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img .item-icon li {
+  display: inline-block;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img .item-icon li a {
+  color: #ffffff;
+  font-size: 36px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img .item-icon li a:hover {
+  color: #e3e3e3;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-img .item-icon li a i {
+  font-weight: 900;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content {
+  text-align: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 50px;
+  background-color: #396CF0;
+  left: 0;
+  bottom: -20px;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content .item-title {
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-bottom: 6px;
+  line-height: 28px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content .item-title a {
+  color: #111111;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content .item-title a:hover {
+  color: #396CF0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content p {
+  margin-bottom: 0;
+  font-weight: 500;
+  color: #646464;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content-text {
+  text-align: center !important;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-content-text p {
+  margin: 0 0 20px 0;
+  font-size: 16px;
+  color: #646464;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-schedule .btn-holder a {
+  width: 100%;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  font-style: normal;
+  border: 1px solid;
+  color: #646464;
+  border-color: #396CF0;
+  background-color: transparent;
+  text-transform: capitalize;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 4px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .team-search .search-element-widjet .search-element .doctor-items .doctor-item .team-box .item-schedule .btn-holder a:hover {
+  color: #ffffff;
+  background-color: #396CF0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#search .search .pagination-area {
+  margin-top: 50px;
+  width: 100%;
+  display: block;
+}
+
+#search .search .pagination-area ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+#search .search .pagination-area ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#search .search .pagination-area ul li a {
+  background-color: #f2f2f2;
+  color: #282828;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  height: 40px;
+  width: 44px;
+  margin: 0 3px;
+  display: block;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  border-radius: 4px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 15px;
+  font-weight: 500;
+}
+
+#search .search .pagination-area ul li a:hover {
+  background-color: #396CF0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  color: #fff;
+}
+
+#search .search .pagination-area ul .active a {
+  background-color: #396CF0;
+  color: #fff;
+}
+
 /*!
 Animate.css - http://daneden.me/animate
 Licensed under the MIT license
