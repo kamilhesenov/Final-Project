@@ -138,7 +138,7 @@ $(document).ready(function (){
  $( ".brand-section .owl-carousel .owl-prev").html('<i class="fas fa-angle-left"></i>');
  $( ".brand-section .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
  
- // Header Scroll start 
+//  Header Scroll start 
  if($("#navbar").length){
   $(window).scroll(function (e) { 
     e.preventDefault();
@@ -166,7 +166,7 @@ $(document).ready(function (){
   });
  }
 
-})
+ })
 
 // Home-Speciality
 var tablinks = document.querySelectorAll("#speciality .nav-pills .nav-item .nav-link");
@@ -195,6 +195,58 @@ for(let elem of tablinks){
     }
       
     })
+}
+
+// About-Choose-us
+var title = document.querySelectorAll(".choose-acordin .choose-acordin-item");
+
+for(let item of title){
+  item.addEventListener("click",function(e){
+    e.preventDefault();
+    
+    var body = document.querySelectorAll(".choose-acordin .choose-acordin-item .tab-content");
+    
+    let array = $(this).siblings();
+   
+    for(let arrayitem of array){
+      if(!arrayitem.lastElementChild.classList.contains("show")){
+        arrayitem.firstElementChild.style.backgroundColor = "#f1f7fa";
+        arrayitem.firstElementChild.lastElementChild.style.color = "#111111";
+        arrayitem.firstElementChild.firstElementChild.firstElementChild.style.display = "block";
+        arrayitem.firstElementChild.firstElementChild.lastElementChild.style.display = "none";
+      }
+    }
+    
+    for(let classValue of item.lastElementChild.classList){
+      if(classValue !== "show"){
+        item.lastElementChild.classList.toggle("show");
+      }
+  }
+   for(let cardCollaps of body){
+    if(cardCollaps !== item.lastElementChild){
+      cardCollaps.classList.add("show");
+    }
+  }
+
+  
+
+  if(item.lastElementChild.classList.contains("show")){
+    item.firstElementChild.style.backgroundColor = "#f1f7fa";
+    item.firstElementChild.lastElementChild.style.color = "#111111";
+    item.firstElementChild.firstElementChild.firstElementChild.style.display = "block";
+    item.firstElementChild.firstElementChild.lastElementChild.style.display = "none";
+}
+else{
+    item.firstElementChild.style.backgroundColor = "#396CF0";
+    item.firstElementChild.lastElementChild.style.color = "#fff";
+    item.firstElementChild.firstElementChild.firstElementChild.style.display = "none";
+    item.firstElementChild.firstElementChild.lastElementChild.style.display = "block";
+
+}
+  
+  
+
+  })
 }
 
 
