@@ -1,0 +1,240 @@
+// Appointment start
+#appointment{
+    width: 1349px;
+    left: -29.5px;
+    background-color: #f1f7fa;
+    padding: 100px 0px 0px 0px;
+    position: relative;
+    .appointment-container{
+        max-width: 1320px;
+        display: flex;
+        margin-right: auto;
+        margin-left: auto;
+        position: relative;
+        .appointment-column-wrap{
+            background-color: #FFFFFF;
+            margin: 0px 0px 100px 40px;
+            padding: 60px 160px 50px 60px;
+            width: 100%;
+            position: relative;
+            display: flex;
+            .appointment-widget{
+                display: flex;
+                position: relative;
+                width: 100%;
+                flex-wrap: wrap;
+                align-content: flex-start;
+                .heading{
+                    margin-bottom: 46px;
+                    width: 100%;
+                    text-align: left;
+                    position: relative;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        height: 4px;
+                        width: 45px;
+                        background-color: $primary-color;
+                        left: 0;
+                        bottom: -20px;
+                        border-radius: 4px;
+                    }
+                    h2{
+                        text-transform: capitalize;
+                        font-size: 32px;
+                        color: $title-color;
+                        font-family: $secondary_font_family;
+                        line-height: 34px;
+                        font-weight: 700;
+                        font-style: normal;
+                    }
+                }
+                .content{
+                    margin: 0px 0px 39px 0px;
+                    p{
+                        font-size: 18px;
+                        color: #7a7a7a;
+                        font-weight: 400;
+                        line-height: 30px;
+                        font-style: normal;
+                        width: 135%;
+                    }
+                }
+                .form{
+                    width: 100%;
+                    position: relative;
+                    form{
+                        .appointment-box{
+                            .appointment-guider{
+                                display: flex;
+                                flex-wrap: wrap;
+                                margin-right: -15px;
+                                .form-group{
+                                    margin-bottom: 15px;
+                                    position: relative;
+                                    text-align: center;
+                                    select{
+                                        color: #707070;
+                                        font-size: 15px;
+                                        font-weight: 400;
+                                        line-height: 1.5;
+                                        text-transform: none;
+                                        height: 48px;
+                                        width: 120%;
+                                        option{
+                                            
+                                        }
+                                    }
+                                    .phone{
+                                        padding-left: 10px;
+                                    }
+                                    .email{
+                                        margin-left: 20px;
+                                        width: 133%;
+                                        padding-left: 10px;
+                                    }
+                                    .date{
+                                        padding-left: 10px;
+                                    }
+                                    .time{
+                                        margin-left: 20px;
+                                        width: 133%;
+                                        padding-left: 10px;
+                                    }
+                                    input{
+                                        background-color: transparent !important;
+                                        color: #7a7a7a !important;
+                                        border: 1px solid #dbe3e7 !important;
+                                        border-radius: 0;
+                                        height: 48px;
+                                        width: 120%;
+                                    }
+                                    input[type="text"]{
+                                        outline: none;
+                                       }
+                                       input[type="date"]{
+                                        padding-right: 5px;
+                                       }
+                                       input[type="email"]{
+                                        outline: none;
+                                       }
+                                    textarea{
+                                        background-color: transparent !important;
+                                        color: #7a7a7a !important;
+                                        border: 1px solid #dbe3e7 !important;
+                                        border-radius: 0;
+                                        height: 120px;
+                                        width: 120%;
+                                        font-size: 16px;
+                                        padding: 15px;
+                                    }
+                                }
+                                .form-date{
+                                  position: relative;
+                                  i{
+                                    font-size: 16px;
+                                    position: absolute;
+                                    top: 34%;
+                                    z-index: 9;
+                                    right: -30px;
+                                  }
+                                }
+                                .form-time{
+                                    position: relative;
+                                    i{
+                                    font-size: 16px;
+                                    position: absolute;
+                                    top: 34%;
+                                    z-index: 9;
+                                    right: -79px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .add-appointment{
+                background-color: $primary-color;
+                margin-top: 15px;
+                margin-left: 150px;
+                padding: 12px 25px;
+                color: #fff;
+                display: inline-block;
+                font-size: 15px;
+                font-weight: 700;
+                box-shadow: none;
+                border: none;
+                border-radius: 4px;
+                @include transition(all 0.3s ease-out);
+                &:hover{
+                    border-color: #1c58ef;
+                    background-color: #1c58ef;
+                    @include transition(all 0.3s ease-out);
+                }
+            }
+        }
+        .appointment-img{
+            width: 100%;
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            align-content: flex-start;
+            .img{
+                width: 100%;
+                text-align: center;
+                position: relative;
+                img{
+                    vertical-align: middle;
+                    display: inline-block;
+                    height: auto;
+                    max-width: 100%;
+                    border: none;
+                    border-radius: 0;
+                    box-shadow: none;
+                }
+            }
+        }
+    }
+}
+// service-to-patients start
+#service-to-patients{
+    padding: 100px 0px 100px 0px;
+    background-color: #ffffff;
+    .service{
+        text-align: center;
+        z-index: 2;
+        position: relative;
+        h2{
+            font-size: 36px;
+            color: $title-color;
+            font-weight: 700;
+            width: 77%;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.35;
+            margin-bottom: 35px;
+            font-family: $secondary_font_family;
+            font-style: normal;
+        }
+        .call-to-action{
+            margin-bottom: 40px;
+            a{
+                color: $title-color;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 36px;
+                line-height: 26px;
+                font-weight: 400;
+                font-style: normal;
+                i{
+                    color: $primary-color;
+                    font-size: 24px;
+                    margin-right: 10px;
+                    font-weight: 900;
+                }
+            }
+        }
+    }
+}

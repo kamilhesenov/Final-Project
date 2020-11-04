@@ -1,0 +1,47 @@
+#error-404{
+    background-color: #f1f7fa;
+    padding-bottom: 95px;
+    padding-top: 95px;
+    .page-error{
+        text-align: center;
+        color: #ffffff;
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        h3{
+            font-weight: 600;
+            margin-top: 45px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            line-height: 1.5;
+            color: $title-color;
+            letter-spacing: 8px;
+            margin-right: -8px;
+            font-family: $secondary_font_family;
+            font-style: normal;
+        }
+        p{
+            font-size: 18px;
+            margin-bottom: 40px;
+            color: $title-color;
+            line-height: 26px;
+            font-weight: 400;
+            font-style: normal;
+        }
+        a{
+            border: 2px solid$primary-color;
+            color: $primary-color;
+            display: inline-block;
+            border-radius: 4px;
+            font-weight: 500;
+            padding: 15px 50px 13px;
+            @include transition(all 0.3s ease-out);
+            &:hover{
+                background-color: $primary-color;
+                color: #ffffff;
+                @include transition(all 0.3s ease-out);
+            }
+        }
+    }
+}
