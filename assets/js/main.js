@@ -139,18 +139,18 @@ $(document).ready(function (){
  $( ".brand-section .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
  
 //  Header Scroll start 
- if($("#navbar").length){
-  $(window).scroll(function (e) { 
-    e.preventDefault();
-    let scroll = $(window).scrollTop();
-    if(scroll > 100){
-      $("#navbar").addClass("show");
-    }
-    else{
-      $("#navbar").removeClass("show");
-    }
-  });
- }
+//  if($("#navbar").length){
+//   $(window).scroll(function (e) { 
+//     e.preventDefault();
+//     let scroll = $(window).scrollTop();
+//     if(scroll > 100){
+//       $("#navbar").addClass("show");
+//     }
+//     else{
+//       $("#navbar").removeClass("show");
+//     }
+//   });
+//  }
 
  // Back-to-top start
  if($(".back-to-top").length){
