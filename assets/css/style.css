@@ -3738,6 +3738,360 @@ li {
   color: #fff;
 }
 
+#doctor-detail {
+  padding-bottom: 95px;
+  padding-top: 95px;
+  background-color: #f1f7fa;
+}
+
+#doctor-detail .widget-about-team {
+  margin-bottom: 4rem;
+  margin-left: 20px;
+  padding: 32px 25px 28px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+          box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+}
+
+#doctor-detail .widget-about-team img {
+  margin-bottom: 16px;
+  max-width: 100%;
+  height: auto;
+}
+
+#doctor-detail .widget-about-team .content h3 {
+  font-weight: 700;
+  color: #111111;
+  margin-bottom: 10px;
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-style: normal;
+}
+
+#doctor-detail .widget-about-team .content p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  color: #646464;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#doctor-detail .widget-about-team .content span {
+  font-weight: 500;
+  display: block;
+  margin-bottom: 10px;
+  color: #396CF0;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+}
+
+#doctor-detail .widget-team-contact {
+  margin-bottom: 4rem;
+  margin-left: 20px;
+  padding: 32px 25px 28px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+          box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+}
+
+#doctor-detail .widget-team-contact h3 {
+  color: #111111;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: "Raleway", Sans-serif;
+  font-style: normal;
+}
+
+#doctor-detail .widget-team-contact h3::after {
+  content: "";
+  position: absolute;
+  background-color: #396CF0;
+  height: 4px;
+  width: 40px;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+#doctor-detail .widget-team-contact .widget-content {
+  padding-left: 0;
+}
+
+#doctor-detail .widget-team-contact .widget-content li {
+  padding-left: 11px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+  color: #646464;
+}
+
+#doctor-detail .widget-team-contact .widget-content li span {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 26px;
+  font-style: normal;
+  display: inline-block;
+}
+
+#doctor-detail .widget-team-contact .widget-content li .widget-social {
+  padding-left: 0;
+}
+
+#doctor-detail .widget-team-contact .widget-content li .widget-social li {
+  display: inline-block;
+  margin-right: 5px;
+  padding-left: 11px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+#doctor-detail .widget-team-contact .widget-content li .widget-social li a {
+  padding: 5px;
+  color: #396CF0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 26px;
+  font-style: normal;
+}
+
+#doctor-detail .widget-team-contact .widget-content li .widget-social li a:hover {
+  color: #111111;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#doctor-detail .widget-call-to-action {
+  margin-bottom: 0 !important;
+  background-color: #396CF0;
+  -webkit-box-shadow: 0px 1px 10px 0px rgba(57, 108, 240, 0.75);
+          box-shadow: 0px 1px 10px 0px rgba(57, 108, 240, 0.75);
+  padding: 30px 20px 20px;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+
+#doctor-detail .widget-call-to-action .media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#doctor-detail .widget-call-to-action .media img {
+  margin-top: 5px;
+  max-width: 100%;
+  height: auto;
+}
+
+#doctor-detail .widget-call-to-action .media .media-body {
+  margin-left: 14px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 1;
+      flex-shrink: 1;
+  -ms-flex-preferred-size: 0%;
+      flex-basis: 0%;
+}
+
+#doctor-detail .widget-call-to-action .media .media-body h4 {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-family: "Raleway", Sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  font-style: normal;
+}
+
+#doctor-detail .widget-call-to-action .media .media-body span {
+  color: #ffffff;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#doctor-detail .team-detail-box {
+  padding: 50px 55px 60px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+          box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+  margin-bottom: 30px;
+}
+
+#doctor-detail .team-detail-box .single-item {
+  margin-bottom: 40px;
+}
+
+#doctor-detail .team-detail-box .single-item h3 {
+  color: #111111;
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 35px;
+  padding-bottom: 20px;
+  position: relative;
+  font-family: "Raleway", Sans-serif;
+  font-size: 22px;
+  line-height: 28px;
+  font-style: normal;
+}
+
+#doctor-detail .team-detail-box .single-item h3::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  width: 40px;
+  background-color: #396CF0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  border-radius: 4px;
+}
+
+#doctor-detail .team-detail-box .single-item p {
+  margin: 0 0 20px 0;
+  color: #646464;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  width: 95%;
+  font-style: normal;
+}
+
+#doctor-detail .team-detail-box .single-item table {
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#doctor-detail .team-detail-box .single-item table thead tr {
+  background-color: #f1f7fa;
+}
+
+#doctor-detail .team-detail-box .single-item table thead tr th {
+  width: 20%;
+  vertical-align: middle;
+  padding: 13px 25px;
+  font-weight: 500;
+  color: #111111;
+  border: 0px;
+  text-align: left;
+}
+
+#doctor-detail .team-detail-box .single-item table tbody tr:nth-child(even) {
+  background-color: #f1f7fa;
+}
+
+#doctor-detail .team-detail-box .single-item table tbody tr td {
+  padding: 13px 26px;
+  color: #111111;
+  border: 0px;
+  vertical-align: top;
+}
+
+#doctor-detail .team-detail-box .single-item .schedule-table {
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  background-color: transparent;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 15px 0;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#doctor-detail .team-detail-box .single-item .schedule-table thead tr {
+  background-color: #f1f7fa;
+}
+
+#doctor-detail .team-detail-box .single-item .schedule-table thead tr th {
+  width: 20%;
+  vertical-align: middle;
+  padding: 13px 25px;
+  font-weight: 500;
+  color: #111111;
+  border: 0px;
+  text-align: left;
+}
+
+#doctor-detail .team-detail-box .single-item .schedule-table thead tr th:last-child {
+  padding-left: 30%;
+}
+
+#doctor-detail .team-detail-box .single-item .schedule-table tbody tr:nth-child(even) {
+  background-color: #f1f7fa;
+}
+
+#doctor-detail .team-detail-box .single-item .schedule-table tbody tr td {
+  padding: 13px 26px;
+  vertical-align: middle;
+  text-transform: uppercase;
+}
+
+#doctor-detail .content-doctor {
+  padding: 50px 55px 60px 10px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+          box-shadow: 0px 1px 0px 0px rgba(222, 229, 232, 0.75);
+  margin-left: 20px;
+}
+
+#doctor-detail .content-doctor p {
+  margin: 0 0 20px 0;
+  color: #646464;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 40px;
+  width: 96%;
+}
+
 #appointment {
   width: 1349px;
   left: -29.5px;
