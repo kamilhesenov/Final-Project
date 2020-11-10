@@ -4902,6 +4902,404 @@ li {
   font-weight: 900;
 }
 
+#products {
+  width: 1349px;
+  left: -29.5px;
+  padding: 80px 0px 80px 0px;
+}
+
+#products .search {
+  max-width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#products .search .team-search {
+  width: 100%;
+  padding: 10px;
+}
+
+#products .search .team-search .search-element-widjet {
+  width: 100%;
+}
+
+#products .search .team-search .search-element-widjet .search-element {
+  width: 100%;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box {
+  margin-bottom: 40px;
+  position: relative;
+  padding: 20px 20px 10px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 1px 2px 0px rgba(194, 205, 211, 0.75);
+          box-shadow: 0px 1px 2px 0px rgba(194, 205, 211, 0.75);
+  border-radius: 4px;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group {
+  margin-bottom: 1rem;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group input {
+  background-color: #f1f7fa;
+  border: 1px solid #f1f7fa;
+  width: 100%;
+  height: 50px;
+  padding: 5px 20px;
+  font-size: 16px;
+  color: #111111;
+  line-height: 1.25;
+  background-image: none;
+  background-clip: padding-box;
+  border-radius: .25rem;
+  margin-left: 5%;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group input::-webkit-input-placeholder {
+  color: #111111;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group input:-ms-input-placeholder {
+  color: #111111;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group input::-ms-input-placeholder {
+  color: #111111;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group input::placeholder {
+  color: #111111;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group input[type="text"] {
+  outline: none;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group .item-btn {
+  border-color: #396CF0;
+  background-color: #396CF0;
+  margin-left: 90%;
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 11.5px 10px;
+  border: 1px solid;
+  border-radius: 4px;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .team-search-box .form-group .item-btn:hover {
+  background-color: #1c58ef;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: 0px;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item {
+  margin-top: 20px;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img {
+  position: relative;
+  background-color: #f1f7fa;
+  padding: 30px;
+  margin-bottom: 0;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(57, 108, 240, 0.9);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img:hover::after {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img:hover .item-icon {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img img {
+  height: auto;
+  max-width: 100%;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img .item-icon {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-img .item-icon .add-to-basket i {
+  position: absolute;
+  top: 43%;
+  left: 37%;
+  font-size: 40px;
+  color: #f1f7fa;
+  z-index: 5;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content {
+  text-align: center;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content h3 {
+  margin: 20px 0 5px;
+  padding: 0;
+  font-size: 24px;
+  color: #282828;
+  font-family: "Raleway", Sans-serif;
+  line-height: 28px;
+  font-weight: 700;
+  font-style: normal;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content h3:hover {
+  color: #396CF0;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content .item-star {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content .item-star i {
+  color: #f7c51d;
+  font-size: 13px;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content .item-price {
+  text-align: center;
+}
+
+#products .search .team-search .search-element-widjet .search-element .medicine-items .medicine-item .team-box .item-content .item-price .price {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #396CF0;
+}
+
+#products .search .team-search .search-element-widjet .search-element .pagination-area {
+  margin-top: 100px;
+  width: 100%;
+  display: block;
+}
+
+#products .search .team-search .search-element-widjet .search-element .pagination-area ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 0;
+}
+
+#products .search .team-search .search-element-widjet .search-element .pagination-area ul li {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+#products .search .team-search .search-element-widjet .search-element .pagination-area ul li a {
+  background-color: #f2f2f2;
+  color: #282828;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  height: 40px;
+  width: 44px;
+  margin: 0 3px;
+  display: block;
+  font-size: 20px;
+  line-height: 2;
+  text-align: center;
+  border-radius: 4px;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 0 15px;
+  font-weight: 500;
+}
+
+#products .search .team-search .search-element-widjet .search-element .pagination-area ul li a:hover {
+  background-color: #396CF0;
+  transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  color: #fff;
+}
+
+#products .search .team-search .search-element-widjet .search-element .pagination-area ul .active a {
+  background-color: #396CF0;
+  color: #fff;
+}
+
+#cart {
+  padding-bottom: 95px;
+  padding-top: 95px;
+}
+
+#cart form table {
+  margin: 0 0 100px;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+}
+
+#cart form table thead tr th {
+  padding: 12px 12px;
+  color: #282828;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+
+#cart form table tbody tr td {
+  padding: 12px 12px;
+  color: #282828;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.5em;
+  vertical-align: middle;
+}
+
+#cart form table tbody tr .product-remove a {
+  margin: 0 auto;
+  display: block;
+  font-size: 1.5em;
+  height: 1em;
+  width: 1em;
+  text-align: center;
+  line-height: 1;
+  border-radius: 100%;
+  color: red !important;
+  font-weight: 700;
+  border: 0;
+}
+
+#cart form table tbody tr .product-quantity {
+  position: relative;
+}
+
+#cart form table tbody tr .product-quantity input {
+  position: absolute;
+  top: 37px;
+  left: 40%;
+  height: 30px;
+  width: 3.631em;
+  border: 1px solid #e7e7e7;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  text-align: center;
+  padding: 1px;
+  background-color: #fff;
+  color: #666;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+#cart .cart-totals {
+  float: right;
+  width: 48%;
+}
+
+#cart .cart-totals h2 {
+  color: #282828;
+  font-size: 24px;
+  margin-bottom: 35px;
+  font-family: "Raleway", Sans-serif;
+  line-height: 34px;
+  font-weight: 700;
+  font-style: normal;
+}
+
+#cart .cart-totals table {
+  border-width: 1px;
+  margin: 0 0 6px;
+  padding: 0;
+  border-radius: 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 100%;
+}
+
+#cart .cart-totals table tbody tr th {
+  padding: 12px 12px;
+  color: #282828;
+  width: 35%;
+  font-weight: 700;
+}
+
+#cart .cart-totals table tbody tr td {
+  padding: 12px 12px;
+  color: #282828;
+  text-align: center;
+}
+
 #contact {
   position: relative;
   max-width: 1320px;
@@ -8510,6 +8908,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 #navbar .header-icon-area .search-box-area .search-box a {
   background-color: transparent;
+  position: relative;
 }
 
 #navbar .header-icon-area .search-box-area .search-box a:visited {
@@ -8527,6 +8926,23 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   font-weight: 700;
 }
 
+#navbar .header-icon-area .search-box-area .search-box a .icon-counter {
+  position: absolute;
+  top: -14px;
+  right: -7px;
+  background-color: #396CF0;
+  height: 17px;
+  width: 15px;
+  line-height: 15px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+#navbar .header-icon-area .search-box-area .search-box a span {
+  color: #ffffff;
+  font-size: 13px;
+}
+
 #navbar .header-icon-area .clear::before {
   content: "";
   display: table;
@@ -8537,7 +8953,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 #navbar .site-navigation .menu-main-primary-container {
   margin-top: 30px;
   display: block;
-  margin-left: 100px;
 }
 
 #navbar .site-navigation .menu-main-primary-container .menu-main-primary .nav-item {

@@ -133,24 +133,24 @@ $(document).ready(function (){
             items: 5
         }
     }
- })
-}
+  })
+ }
  $( ".brand-section .owl-carousel .owl-prev").html('<i class="fas fa-angle-left"></i>');
  $( ".brand-section .owl-carousel .owl-next").html('<i class="fas fa-angle-right"></i>');
  
-//  Header Scroll start 
-//  if($("#navbar").length){
-//   $(window).scroll(function (e) { 
-//     e.preventDefault();
-//     let scroll = $(window).scrollTop();
-//     if(scroll > 100){
-//       $("#navbar").addClass("show");
-//     }
-//     else{
-//       $("#navbar").removeClass("show");
-//     }
-//   });
-//  }
+ //  Header Scroll start 
+ //  if($("#navbar").length){
+ //   $(window).scroll(function (e) { 
+ //     e.preventDefault();
+ //     let scroll = $(window).scrollTop();
+ //     if(scroll > 100){
+ //       $("#navbar").addClass("show");
+ //     }
+ //     else{
+ //       $("#navbar").removeClass("show");
+ //     }
+ //   });
+ //  }
 
  // Back-to-top start
  if($(".back-to-top").length){
@@ -166,7 +166,8 @@ $(document).ready(function (){
   });
  }
 
- })
+ 
+})
 
 // Home-Speciality
 var tablinks = document.querySelectorAll("#speciality .nav-pills .nav-item .nav-link");
@@ -241,13 +242,124 @@ else{
     item.firstElementChild.lastElementChild.style.color = "#fff";
     item.firstElementChild.firstElementChild.firstElementChild.style.display = "none";
     item.firstElementChild.firstElementChild.lastElementChild.style.display = "block";
-
 }
   
-  
+})
+}
 
+// Shop And Add to cart
+
+var addToBasket = document.querySelectorAll(".medicine-item .team-box .item-icon .add-to-basket");
+var cartCount = document.querySelector(".header-icon-area .search-box-area .search-box .icon-counter .cart-count");
+var cartItems = document.querySelector(".cart-items");
+
+addToBasket.forEach(elem =>{
+  elem.addEventListener("click",function(e){
+    e.preventDefault();
+    
+    var contentName = this.parentNode.parentNode.parentNode.lastElementChild.firstElementChild.innerText;
+    var contentImage = this.parentNode.parentNode.firstElementChild.getAttribute("src");
+    var contentPrice = this.parentNode.parentNode.parentNode.lastElementChild.lastElementChild.firstElementChild.innerText;
+
+    let basket = JSON.parse(localStorage.getItem("basket"));
+   
+    if(basket == null){
+      basket ={
+        items: [],
+        count: 0,
+        total: 0,
+      };
+    }
+    let productId =this.dataset.id;
+
+    let index = basket.items.findIndex((item)=>{
+         return item.id == productId;
+    })
+
+    if(index == -1){
+      
+      let price = {
+        id: this.dataset.id,
+        name: contentName,
+        img: contentImage,
+        price: parseFloat(contentPrice),
+        qty: 1,
+      };
+      basket.items.push(price);
+    }else{
+      basket.items[index].qty ++;
+    }
+    
+    basket = calcTotalAndCount(basket);
+
+    if(cartCount != null){
+      cartCount.innerText = basket.count;
+    }
+    
+    localStorage.setItem("basket",JSON.stringify(basket));
   })
+ })
+
+ let basket = JSON.parse(localStorage.getItem("basket"));
+   
+    if(basket != null && cartCount != null){
+      
+      cartCount.innerText = basket.count;
+    }
+
+    if(basket != null && cartItems != null){
+      basket.items.forEach((item,index) =>{
+       
+        let td = `<td class="product-remove">
+            <a class="remove-from-basket" data-id="${item.id}" href="#">x</a>
+        </td>
+        <td class="product-thumbnail">
+            <a href="#">
+                <img width="80" height="80" src="${item.img}" alt="">
+            </a>
+        </td>
+        <td class="product-name">
+            <a href="#">${item.name}</a>
+        </td>
+        <td class="product-price">
+            <span>${item.price} ₼</span>
+        </td>
+        <td class="product-quantity">
+            <input type="number" class="form-control" id="exampleInputNumber" value="${item.qty}">
+        </td>
+        <td class="product-subtotal">
+            <span>${item.price*item.qty} ₼</span>
+        </td>`
+ 
+     let tr = document.createElement("tr");
+     tr.dataset.index = index;
+     tr.innerHTML = td;
+     cartItems.append(tr);
+
+     });
+
+    }
+   
+    var removeFromBasket = document.querySelectorAll(".remove-from-basket");
+    removeFromBasket.forEach(item =>{
+      item.addEventListener("click",function(e){
+        e.preventDefault();
+        let index = item.parentNode.parentNode.dataset.index;
+        basket.items.splice(index,1);
+        item.parentNode.parentNode.remove();
+        basket = calcTotalAndCount(basket);
+        localStorage.setItem("basket",JSON.stringify(basket));
+      })
+    })
+
+ function calcTotalAndCount(basket){
+  basket.count = 0;
+  basket.total = 0;
+  basket.items.forEach(item =>{
+    basket.total += (item.qty * item.price);
+    basket.count ++;
+  })
+
+  return basket;
 }
-
-
 

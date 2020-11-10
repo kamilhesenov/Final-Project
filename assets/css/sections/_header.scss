@@ -108,7 +108,6 @@
     box-shadow: 0 8px 25px 0 rgba(0, 0, 0, 0.04);
     top: -20px;
     @include transition(all 0.5s ease-out);
-    // padding-top: 20px;
     }
       .site-branding{
         @include transition(all 1s ease-out);
@@ -153,6 +152,7 @@
         line-height: 1;
         a{
             background-color: transparent;
+            position: relative;
             &:visited{
                 color: $primary-color;
                 @include transition(all 0.3s ease 0s);
@@ -161,6 +161,21 @@
                 color: $primary-color;
                 font-size: 25px;
                 font-weight: 700;
+            }
+            .icon-counter{
+                position: absolute;
+                top: -14px;
+                right: -7px;
+                background-color: #396CF0;
+                height: 17px;
+                width: 15px;
+                line-height: 15px;
+                border-radius: 50%;
+                text-align: center;
+            }
+            span{
+             color: #ffffff;
+             font-size: 13px;
             }
         }
       }
@@ -176,7 +191,6 @@
        .menu-main-primary-container{
            margin-top: 30px;
            display: block;
-           margin-left: 100px;
         .menu-main-primary{
             .nav-item{
             display: inline-block;

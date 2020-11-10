@@ -12,7 +12,6 @@
     <title>Document</title>
 </head>
 <body>
-   
     <header>
         <!-- Header top start -->
         <section id="header-top">
@@ -153,7 +152,7 @@
         <div class="page-banner">
             <div class="container-fluid">
                 <div class="banner-connet">
-                    <h1>Appointment Form</h1>
+                    <h1>Cart</h1>
                     <div class="breadcrumb-area">
                         <div class="banner-breadcrumb">
                             <span class="icon">
@@ -163,7 +162,7 @@
                                 </a>
                                 >
                             </span>
-                            <span class="post-page">Appointment Form</span>
+                            <span class="post-page">Cart</span>
                         </div>
                     </div>
                 </div>
@@ -172,111 +171,33 @@
     </section>
     <!-- Banner section end -->
 
-    <!-- Appointment section start -->
-    <section id="appointment">
+    <!-- Cart section start -->
+    <section id="cart">
         <div class="container-fluid">
-            <div class="appointment-container">
-                <div class="row">
-                    <div class="col-lg-6 col md-6 col-sm-12">
-                        <div class="appointment-column-wrap wow fadeInLeft" data-wow-duration="3s">
-                            <div class="appointment-widget">
-                                <div class="heading">
-                                    <h2>Make an Appointment</h2>
-                                </div>
-                              <div class="content">
-                                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, 
-                                     luctus nec ullamcorper mattis, pulvinar dapibus leo.
-                                 </p>
-                              </div>
-                              <div class="form">
-                                  <form method="post">
-                                      <div class="appointment-box">
-                                          <div class="row">
-                                              <div class="appointment-guider">
-                                                  <div class="col-lg-12 col-md-12 col-sm-12">
-                                                      <div class="form-group">
-                                                          <select name="department" id="department" class="form-control">
-                                                              <option value="1">Select Department</option>
-                                                          </select>
-                                                      </div>
-                                                  </div>
-                                                  <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <select name="doctor" id="doctor" class="form-control">
-                                                            <option value="1">Choose Doctor by Name</option>
-                                                        </select>
-                                                    </div>
-                                                  </div>
-                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                        <input type="text" class="form-control" name="patient" id="patient" placeholder="Patient Name *">
-                                                    </div>
-                                                  </div>
-                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="form-group">
-                                                        <input class="phone" type="text" class="form-control" name="phone" id="phone" placeholder="Phone *">
-                                                    </div>
-                                                 </div>
-                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="form-group">
-                                                        <input class="email" type="email" class="form-control" name="email" id="email" placeholder="E-mail*">
-                                                    </div>
-                                                 </div>
-                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="form-group form-date">
-                                                        <input class="date"  type="date" class="form-control" name="date" id="date">
-                                                        <i class="far fa-calendar-alt calendar"></i>
-                                                    </div>
-                                                 </div>
-                                                 <div class="col-lg-6 col-md-6 col-sm-12">
-                                                    <div class="form-group form-time">
-                                                        <input class="time"  type="text" class="form-control" name="time" id="time" placeholder="Time*">
-                                                        <i class="far fa-clock"></i>
-                                                    </div>
-                                                 </div>
-                                                 <div class="col-lg-12 col-md-12 col-sm-12">
-                                                    <div class="form-group">
-                                                     <textarea class="form-control" name="message" id="message" placeholder="Type Appintment Note"></textarea>
-                                                    </div>
-                                                 </div>
-                                                </div>
-                                              <button type="submit" class="add-appointment">Make an Appointment</button>
-                                          </div>
-                                      </div>
-                                  </form>
-                              </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 col-md-6 cols-sm-12">
-                        <div class="appointment-img wow fadeInRight" data-wow-duration="3s">
-                            <div class="img">
-                                <img src="assets/img/figure2.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Appointment section end -->
-
-    <!-- service-to-patients section start -->
-    <section id="service-to-patients">
-        <div class="container">
             <div class="row">
-                <div class="col-lg-12 col-md-12">
-                    <div class="service wow fadeInLeftBig" data-wow-duration="2s">
-                        <h2>We Provide the highest level of satisfaction care & services to our patients.</h2>
-                        <div class="call-to-action">
-                            <a href="#"><i class="fas fa-phone-alt"></i>+123 44092 888</a>
-                        </div>
-                    </div>
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <form>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th class="product-remove">&nbsp;</th>
+                                    <th class="product-thumbnail">&nbsp;</th>
+                                    <th class="product-name">Product</th>
+                                    <th class="product-price">Price</th>
+                                    <th class="product-quantity">Quantity</th>
+                                    <th class="product-subtotal">Subtotal</th>
+                                </tr>
+                            </thead>
+                            <tbody class="cart-items">
+                                
+                            </tbody>
+                        </table>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
-    <!-- service-to-patients section end -->
+    <!-- Cart section end -->
     </main>
     <footer>
         <!-- Footer-top start -->
@@ -424,6 +345,7 @@
         </section>
         <!-- Footer-bottom end -->
     </footer>
+
 
     <a href="#" class="back-to-top">
         <i class="fas fa-angle-double-up"></i>

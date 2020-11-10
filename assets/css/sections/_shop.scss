@@ -1,0 +1,209 @@
+// products start
+#products{
+    width: 1349px;
+    left: -29.5px;
+    padding: 80px 0px 80px 0px;
+    .search{
+        max-width: 1320px;
+        margin-right: auto;
+        margin-left: auto;
+        .team-search{
+            width: 100%;
+            padding: 10px;
+              .search-element-widjet{
+                width: 100%;
+                  .search-element{
+                    width: 100%;
+                     .team-search-box{
+                        margin-bottom: 40px;
+                        position: relative;
+                        padding: 20px 20px 10px;
+                        background-color: #ffffff;
+                        box-shadow: 0px 1px 2px 0px rgba(194, 205, 211, 0.75);
+                        border-radius: 4px;
+                        .form-group{
+                            margin-bottom: 1rem;
+                            input{
+                                background-color: #f1f7fa;
+                                border: 1px solid #f1f7fa;
+                                width: 100%;
+                                height: 50px;
+                                padding: 5px 20px;
+                                font-size: 16px;
+                                color: $title-color;
+                                line-height: 1.25;
+                                background-image: none;
+                                background-clip: padding-box;
+                                border-radius: .25rem;
+                                margin-left: 5%;
+                                &::placeholder{
+                                    color: $title-color;
+                                }
+                            }
+                            input[type="text"]{
+                                outline: none;
+                            }
+                            .item-btn{
+                                border-color: $primary-color;
+                                background-color: $primary-color;
+                                margin-left: 90%;
+                                color: #ffffff;
+                                width: 100%;
+                                text-align: center;
+                                font-size: 16px;
+                                font-weight: 500;
+                                padding: 11.5px 10px;
+                                border: 1px solid;
+                                border-radius: 4px;
+                                @include transition(all 0.5s ease-out);
+                                &:hover{
+                                    background-color: #1c58ef;
+                                    @include transition(all 0.5s ease-out);
+                                }
+                            }
+                        }
+                    }
+                    .medicine-items{
+                        position: relative;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-right: -15px;
+                        margin-left: 0px;
+                        .medicine-item{
+                            margin-top: 20px;
+                            .team-box{
+                                .item-img{
+                                        position: relative;
+                                        background-color: #f1f7fa;
+                                        padding: 30px;
+                                        margin-bottom: 0;
+                                        &::after{
+                                            content: "";
+                                            position: absolute;
+                                            background-color: rgba(57, 108, 240, 0.9);
+                                            height: 100%;
+                                            width: 100%;
+                                            top: 0;
+                                            left: 0;
+                                            z-index: 1;
+                                            opacity: 0;
+                                            visibility: hidden;
+                                            @include transition(all 0.3s ease-out);
+                                        }
+                                        &:hover::after{
+                                            opacity: 1;
+                                            visibility: visible;
+                                            @include transition(all 0.5s ease-out);
+                                        }
+                                        &:hover .item-icon{
+                                            opacity: 1;
+                                            visibility: visible;
+                                            @include transition(all 0.3s ease-out);
+                                        }
+                                    img{
+                                        height: auto;
+                                        max-width: 100%;
+                                    }
+                                    .item-icon{
+                                        opacity: 0;
+                                        visibility: hidden;
+                                        @include transition(all 0.3s ease-out);
+                                       .add-to-basket{
+                                        i{
+                                            position: absolute;
+                                            top: 43%;
+                                            left: 37%;
+                                            font-size: 40px;
+                                            color: #f1f7fa;
+                                            z-index: 5;
+                                        }
+                                       }
+                                    }
+                                }
+                                .item-content{
+                                    text-align: center;
+                                    h3{
+                                        margin: 20px 0 5px;
+                                        padding: 0;
+                                        font-size: 24px;
+                                        color: #282828;
+                                        font-family: $secondary_font_family;
+                                        line-height: 28px;
+                                        font-weight: 700;
+                                        font-style: normal;
+                                        cursor: pointer;
+                                        @include transition(all 0.3s ease-out);
+                                        &:hover{
+                                            color: $primary-color;
+                                            @include transition(all 0.3s ease-out);
+                                        }
+                                    }
+                                    .item-star{
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                        margin-top: 12px;
+                                        margin-bottom: 10px;
+                                         i{
+                                          color: #f7c51d;
+                                          font-size: 13px;
+                                         }
+                                    }
+                                    .item-price{
+                                        text-align: center;
+                                        .price{
+                                            font-size: 20px;
+                                            line-height: 1.5;
+                                            color: $primary-color;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .pagination-area{
+                        margin-top: 100px;
+                        width: 100%;
+                        display: block;
+                        ul{
+                            margin: 0;
+                            padding: 0;
+                            text-align: center;
+                            font-size: 0;
+                            li{
+                                display: inline-block;
+                                margin-right: 5px;
+                                a{
+                                    background-color: #f2f2f2;
+                                    color: #282828;
+                                    @include transition(all 0.5s ease-out);
+                                    height: 40px;
+                                    width: 44px;
+                                    margin: 0 3px;
+                                    display: block;
+                                    font-size: 20px;
+                                    line-height: 2;
+                                    text-align: center;
+                                    border-radius: 4px;
+                                    border-bottom: 1px solid #f2f2f2;
+                                    padding: 0 15px;
+                                    font-weight: 500;
+                                        &:hover{
+                                         background-color: $primary-color;
+                                         @include transition(all 0.5s ease-out);
+                                         color: #fff;
+                                       }
+                                 }
+                            }
+                            .active{
+                                a{
+                                 background-color: $primary-color;
+                                color: #fff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
